@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+    <sheets>
+        <general>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Select Option</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.token>
+                        <TCEforms>
+                            <label>Token</label>
+                            <config>
+                                <checkbox>1</checkbox>
+                                <default></default>
+                                <type>input</type>
+                                <size>40</size>
+                            </config>
+                        </TCEforms>
+                    </settings.token>
+                    <settings.date>
+                        <TCEforms>
+                            <label>Date</label>
+                            <config>
+                                <checkbox>1</checkbox>
+                                <default>DD-MMMM-YYYY</default>
+                                <type>input</type>
+                                <size>15</size>
+                            </config>
+                        </TCEforms>
+                    </settings.date>
+                    <settings.time>
+                        <TCEforms>
+                            <label>Time</label>
+                            <config>
+                                <checkbox>1</checkbox>
+                                <default>HH:mm</default>
+                                <type>input</type>
+                                <size>15</size>
+                            </config>
+                        </TCEforms>
+                    </settings.time>
+
+	                <settings.weekstarton>
+                        <TCEforms>
+                            <label>Week start on</label>
+                            <onChange>reload</onChange>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">Sunday</numIndex>
+                                        <numIndex index="1">Sunday</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">Monday</numIndex>
+                                        <numIndex index="1">Monday</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.weekstarton>
+
+                    <settings.defaultview>
+                        <TCEforms>
+                            <label>default view</label>
+                            <onChange>reload</onChange>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">Day</numIndex>
+                                        <numIndex index="1">Day</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">Month</numIndex>
+                                        <numIndex index="1">Month</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">Year</numIndex>
+                                        <numIndex index="1">Year</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.defaultview>
+
+                    <settings.removemonthviewbutton>
+                        <TCEforms>
+                            <label>Remove Month View Button</label>
+                            <config>
+                                <checkbox>1</checkbox>
+                                <type>check</type>
+                                <items type="array">
+                                   <numIndex index="1" type="array">
+                                      <numIndex index="0">Activate/remove Month view button</numIndex>
+                                      <numIndex index="1">1</numIndex>
+                                   </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.removemonthviewbutton>
+                    <settings.removeweekviewbutton>
+                        <TCEforms>
+                            <label>Remove Week View Button</label>
+                            <config>
+                                <checkbox>1</checkbox>
+                                <type>check</type>
+                                <items type="array">
+                                   <numIndex index="1" type="array">
+                                      <numIndex index="0">Activate/remove Week view button</numIndex>
+                                      <numIndex index="1">1</numIndex>
+                                   </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.removeweekviewbutton>
+                    <settings.removedayviewbutton>
+                        <TCEforms>
+                            <label>Remove Day View Button</label>
+                            <config>
+                                <checkbox>1</checkbox>
+                                <type>check</type>
+                                <items type="array">
+                                   <numIndex index="1" type="array">
+                                      <numIndex index="0">Activate/remove Day view button</numIndex>
+                                      <numIndex index="1">1</numIndex>
+                                   </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.removedayviewbutton>
+
+				</el>
+            </ROOT>
+        </general>
+    </sheets>
+</T3DataStructure>

@@ -1,0 +1,36 @@
+<html xmlns:f="https://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+	<f:layout name="Default" />
+
+	This Template is responsible for creating a table of domain objects.
+
+	If you modify this template, do not forget to change the overwrite settings
+	in /Configuration/ExtensionBuilder/settings.yaml:
+	  Resources:
+		Private:
+		  Templates:
+			List.html: keep
+
+	Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+	<f:section name="content">
+		<f:flashMessages />
+
+		<a name="sagenda"></a>
+		<app-root>Sagenda is loading...</app-root>
+		<script>
+			window.sagendaIntegration = "Typo3";
+			window.sagendaBearerToken = "{settings.token}";
+			window.sagendaDefaultView = "{settings.defaultview}";
+			window.sagendaWeekStartsOn = "{settings.weekstarton}";
+			window.sagendaRemoveMonthViewButton = '{settings.removemonthviewbutton}';
+			window.sagendaRemoveWeekViewButton = '{settings.removeweekviewbutton}';
+			window.sagendaRemoveDayViewButton = '{settings.removedayviewbutton}';
+			window.sagendaLanguageCultureShortName = "{{ here current language of the frontend page}}";
+			window.sagendaDateFormat = "{settings.date}";
+			window.sagendaTimeFormat = "{settings.time}";
+			window.sagendaFixedBookableItem = "{{fixedBookableItem}}";
+			window.baseUrl = "https://sagenda.net/api/v3/";
+			window.sagendaAngularPath = "{{SAGENDA_CALENDAR_PLUGIN_URL}}assets/angular/";
+		</script>
+	</f:section>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-05-27T06:50:24Z" product-name="sagenda_calendar">
+		<header/>
+		<body>
+			<trans-unit id="tx_sagendacalendar_domain_model_sagendacalendar">
+				<source>Sagendacalendar</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
