@@ -1,7 +1,7 @@
 <?php
 return [
     'ctrl' => [
-        'title' => 'LLL:EXT:sagenda_calendar/Resources/Private/Language/locallang_db.xlf:tx_sagendacalendar_domain_model_sagendacalendar',
+        'title' => 'LLL:EXT:sagenda_calendar_typo3/Resources/Private/Language/locallang_db.xlf:tx_sagendacalendar_domain_model_sagendacalendar',
         'label' => 'uid',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
@@ -17,7 +17,7 @@ return [
             'endtime' => 'endtime',
         ],
         'searchFields' => '',
-        'iconfile' => 'EXT:sagenda_calendar/Resources/Public/Icons/tx_sagendacalendar_domain_model_sagendacalendar.gif'
+        'iconfile' => 'EXT:sagenda_calendar_typo3/Resources/Public/Icons/tx_sagendacalendar_domain_model_sagendacalendar.gif'
     ],
     'interface' => [
         'showRecordFieldList' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, ',
@@ -54,8 +54,8 @@ return [
                 'items' => [
                     ['', 0],
                 ],
-                'foreign_table' => 'tx_sagendacalendar_domain_model_sagendacalendar',
-                'foreign_table_where' => 'AND tx_sagendacalendar_domain_model_sagendacalendar.pid=###CURRENT_PID### AND tx_sagendacalendar_domain_model_sagendacalendar.sys_language_uid IN (-1,0)',
+                'foreign_table' => 'tx_sagendacalendartypo3_domain_model_sagendacalendartypo3',
+                'foreign_table_where' => 'AND tx_sagendacalendartypo3_domain_model_sagendacalendartypo3.pid=###CURRENT_PID### AND tx_sagendacalendartypo3_domain_model_sagendacalendartypo3.sys_language_uid IN (-1,0)',
             ],
         ],
         'l10n_diffsource' => [

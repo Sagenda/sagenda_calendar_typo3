@@ -1,15 +1,15 @@
 
-plugin.tx_sagendacalendar_sagendacalendar {
+plugin.tx_sagendacalendartypo3_sagendacalendartypo3 {
     view {
-        # cat=plugin.tx_sagendacalendar_sagendacalendar/file; type=string; label=Path to template root (FE)
-        templateRootPath = EXT:sagenda_calendar/Resources/Private/Templates/
-        # cat=plugin.tx_sagendacalendar_sagendacalendar/file; type=string; label=Path to template partials (FE)
-        partialRootPath = EXT:sagenda_calendar/Resources/Private/Partials/
-        # cat=plugin.tx_sagendacalendar_sagendacalendar/file; type=string; label=Path to template layouts (FE)
-        layoutRootPath = EXT:sagenda_calendar/Resources/Private/Layouts/
+        # cat=plugin.tx_sagendacalendartypo3_sagendacalendartypo3/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:sagenda_calendar_typo3/Resources/Private/Templates/
+        # cat=plugin.tx_sagendacalendartypo3_sagendacalendartypo3/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:sagenda_calendar_typo3/Resources/Private/Partials/
+        # cat=plugin.tx_sagendacalendartypo3_sagendacalendartypo3/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:sagenda_calendar_typo3/Resources/Private/Layouts/
     }
     persistence {
-        # cat=plugin.tx_sagendacalendar_sagendacalendar//a; type=string; label=Default storage PID
+        # cat=plugin.tx_sagendacalendartypo3_sagendacalendartypo3//a; type=string; label=Default storage PID
         storagePid =
     }
 }

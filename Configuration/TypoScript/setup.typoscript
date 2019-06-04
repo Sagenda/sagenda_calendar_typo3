@@ -1,19 +1,19 @@
 
-plugin.tx_sagendacalendar_sagendacalendar {
+plugin.tx_sagendacalendartypo3_sagendacalendartypo3 {
     view {
-        templateRootPaths.0 = EXT:sagenda_calendar/Resources/Private/Templates/
-        templateRootPaths.1 = {$plugin.tx_sagendacalendar_sagendacalendar.view.templateRootPath}
-        partialRootPaths.0 = EXT:sagenda_calendar/Resources/Private/Partials/
-        partialRootPaths.1 = {$plugin.tx_sagendacalendar_sagendacalendar.view.partialRootPath}
-        layoutRootPaths.0 = EXT:sagenda_calendar/Resources/Private/Layouts/
-        layoutRootPaths.1 = {$plugin.tx_sagendacalendar_sagendacalendar.view.layoutRootPath}
+        templateRootPaths.0 = EXT:sagenda_calendar_typo3/Resources/Private/Templates/
+        templateRootPaths.1 = {$plugin.tx_sagendacalendartypo3_sagendacalendartypo3.view.templateRootPath}
+        partialRootPaths.0 = EXT:sagenda_calendar_typo3/Resources/Private/Partials/
+        partialRootPaths.1 = {$plugin.tx_sagendacalendartypo3_sagendacalendartypo3.view.partialRootPath}
+        layoutRootPaths.0 = EXT:sagenda_calendar_typo3/Resources/Private/Layouts/
+        layoutRootPaths.1 = {$plugin.tx_sagendacalendartypo3_sagendacalendartypo3.view.layoutRootPath}
     }
 }
 
 page {
     includeJSLibs {
-        runtime = EXT:sagenda_calendar/Resources/Public/JavaScript/runtime.js
-        polyfills = EXT:sagenda_calendar/Resources/Public/JavaScript/polyfills.js
-        main = EXT:sagenda_calendar/Resources/Public/JavaScript/main.js
+        runtime = EXT:sagenda_calendar_typo3/Resources/Public/JavaScript/runtime.js
+        polyfills = EXT:sagenda_calendar_typo3/Resources/Public/JavaScript/polyfills.js
+        main = EXT:sagenda_calendar_typo3/Resources/Public/JavaScript/main.js
     }
 }

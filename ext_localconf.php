@@ -6,14 +6,14 @@ call_user_func(
     {
 
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-            'Sagenda.SagendaCalendar',
-            'Sagendacalendar',
+            'Sagenda.SagendaCalendarTypo3',
+            'Sagendacalendartypo3',
             [
-                'Sagendacalendar' => 'list'
+                'Sagendacalendartypo3' => 'list'
             ],
             // non-cacheable actions
             [
-                'Sagendacalendar' => ''
+                'Sagendacalendartypo3' => ''
             ]
         );
 
@@ -22,13 +22,13 @@ call_user_func(
         'mod {
             wizards.newContentElement.wizardItems.plugins {
                 elements {
-                    sagendacalendar {
+                    sagendacalendartypo3 {
                         iconIdentifier = sagenda_calendar-plugin-sagendacalendar
-                        title = LLL:EXT:sagenda_calendar/Resources/Private/Language/locallang_db.xlf:tx_sagenda_calendar_sagendacalendar.name
-                        description = LLL:EXT:sagenda_calendar/Resources/Private/Language/locallang_db.xlf:tx_sagenda_calendar_sagendacalendar.description
+                        title = LLL:EXT:sagenda_calendar_typo3/Resources/Private/Language/locallang_db.xlf:tx_sagenda_calendar_sagendacalendar.name
+                        description = LLL:EXT:sagenda_calendar_typo3/Resources/Private/Language/locallang_db.xlf:tx_sagenda_calendar_sagendacalendar.description
                         tt_content_defValues {
                             CType = list
-                            list_type = sagendacalendar_sagendacalendar
+                            list_type = sagendacalendartypo3_sagendacalendartypo3
                         }
                     }
                 }
@@ -41,7 +41,7 @@ call_user_func(
 			$iconRegistry->registerIcon(
 				'sagenda_calendar-plugin-sagendacalendar',
 				\TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-				['source' => 'EXT:sagenda_calendar/Resources/Public/Icons/user_plugin_sagendacalendar.svg']
+				['source' => 'EXT:sagenda_calendar_typo3/Resources/Public/Icons/user_plugin_sagendacalendar.svg']
 			);
 		
     }

@@ -1,7 +1,7 @@
 #
-# Table structure for table 'tx_sagendacalendar_domain_model_sagendacalendar'
+# Table structure for table 'tx_sagendacalendartypo3_domain_model_sagendacalendartypo3'
 #
-CREATE TABLE tx_sagendacalendar_domain_model_sagendacalendar (
+CREATE TABLE tx_sagendacalendartypo3_domain_model_sagendacalendartypo3 (
 
 	uid int(11) NOT NULL auto_increment,
 	pid int(11) DEFAULT '0' NOT NULL,

@@ -1,7 +1,7 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Sagenda Calendar',
+    'title' => 'Sagenda Calendar Typo3',
     'description' => '',
     'category' => 'plugin',
     'author' => 'Sagenda',
