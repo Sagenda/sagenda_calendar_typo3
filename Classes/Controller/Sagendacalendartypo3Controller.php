@@ -49,6 +49,7 @@ class Sagendacalendartypo3Controller extends \TYPO3\CMS\Extbase\Mvc\Controller\A
             $this->settings['removedayviewbutton'] = 'false';
         }        
         $this->view->assign('settings', $this->settings);
+        $this->view->assign('serverpath', $_SERVER['DOCUMENT_ROOT']);
         $this->view->assign('sagendacalendartypo3s', $sagendacalendartypo3s);
     }
 }
