@@ -33,23 +33,26 @@ class Sagendacalendartypo3Controller extends \TYPO3\CMS\Extbase\Mvc\Controller\A
     public function listAction()
     {
         $sagendacalendartypo3s = $this->sagendacalendartypo3Repository->findAll();
-        if ($this->settings['removemonthviewbutton']){
+        if ($this->settings['removemonthviewbutton']) {
             $this->settings['removemonthviewbutton'] = 'true';
         } else {
             $this->settings['removemonthviewbutton'] = 'false';
         }
-        if ($this->settings['removeweekviewbutton']){
+        if ($this->settings['removeweekviewbutton']) {
             $this->settings['removeweekviewbutton'] = 'true';
         } else {
             $this->settings['removeweekviewbutton'] = 'false';
         }
-        if ($this->settings['removedayviewbutton']){
+        if ($this->settings['removedayviewbutton']) {
             $this->settings['removedayviewbutton'] = 'true';
         } else {
             $this->settings['removedayviewbutton'] = 'false';
-        }        
+        }
         $this->view->assign('settings', $this->settings);
-        $this->view->assign('serverpath', $_SERVER['DOCUMENT_ROOT']);
+
+        $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]" . dirname($_SERVER[PHP_SELF]);
+        $this->view->assign('webpath', $actual_link);
+
         $this->view->assign('sagendacalendartypo3s', $sagendacalendartypo3s);
     }
 }
