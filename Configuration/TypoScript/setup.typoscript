@@ -11,6 +11,13 @@ plugin.tx_sagendacalendartypo3_sagendacalendartypo3 {
 }
 
 page {
+    includeCSS {
+        bootstrapwrapper = EXT:sagenda_calendar_typo3/Resources/Public/assets/vendor/bootstrap/bootstrap-wrapper.css
+        indigopink = https://unpkg.com/@angular/material@7.3.7/prebuilt-themes/indigo-pink.css
+        indogopink.external = 1
+        sagendastyles = EXT:sagenda_calendar_typo3/Resources/Public/assets/angular/styles.css
+    }
+
     includeJSLibs {
         runtime = EXT:sagenda_calendar_typo3/Resources/Public/JavaScript/runtime.js
         polyfills = EXT:sagenda_calendar_typo3/Resources/Public/JavaScript/polyfills.js

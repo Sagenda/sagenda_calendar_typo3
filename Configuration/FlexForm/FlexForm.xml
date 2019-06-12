@@ -51,11 +51,11 @@
                                 <items type="array">
                                     <numIndex index="1" type="array">
                                         <numIndex index="0">Sunday</numIndex>
-                                        <numIndex index="1">Sunday</numIndex>
+                                        <numIndex index="1">0</numIndex>
                                     </numIndex>
                                     <numIndex index="2" type="array">
                                         <numIndex index="0">Monday</numIndex>
-                                        <numIndex index="1">Monday</numIndex>
+                                        <numIndex index="1">1</numIndex>
                                     </numIndex>
                                 </items>
                             </config>
@@ -71,15 +71,15 @@
                                 <items type="array">
                                     <numIndex index="1" type="array">
                                         <numIndex index="0">Day</numIndex>
-                                        <numIndex index="1">Day</numIndex>
+                                        <numIndex index="1">day</numIndex>
                                     </numIndex>
                                     <numIndex index="2" type="array">
                                         <numIndex index="0">Month</numIndex>
-                                        <numIndex index="1">Month</numIndex>
+                                        <numIndex index="1">month</numIndex>
                                     </numIndex>
                                     <numIndex index="3" type="array">
                                         <numIndex index="0">Year</numIndex>
-                                        <numIndex index="1">Year</numIndex>
+                                        <numIndex index="1">year</numIndex>
                                     </numIndex>
                                 </items>
                             </config>
