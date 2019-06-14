@@ -64,7 +64,7 @@
 
                     <settings.defaultview>
                         <TCEforms>
-                            <label>default view</label>
+                            <label>Default view</label>
                             <onChange>reload</onChange>
                             <config>
                                 <type>select</type>
@@ -95,7 +95,7 @@
                                 <type>check</type>
                                 <items type="array">
                                    <numIndex index="1" type="array">
-                                      <numIndex index="0">Activate/remove Month view button</numIndex>
+                                      <numIndex index="0">Remove Month view button</numIndex>
                                       <numIndex index="1">1</numIndex>
                                    </numIndex>
                                 </items>
@@ -110,7 +110,7 @@
                                 <type>check</type>
                                 <items type="array">
                                    <numIndex index="1" type="array">
-                                      <numIndex index="0">Activate/remove Week view button</numIndex>
+                                      <numIndex index="0">Remove Week view button</numIndex>
                                       <numIndex index="1">1</numIndex>
                                    </numIndex>
                                 </items>
@@ -125,7 +125,7 @@
                                 <type>check</type>
                                 <items type="array">
                                    <numIndex index="1" type="array">
-                                      <numIndex index="0">Activate/remove Day view button</numIndex>
+                                      <numIndex index="0">Remove Day view button</numIndex>
                                       <numIndex index="1">1</numIndex>
                                    </numIndex>
                                 </items>
