@@ -41,7 +41,7 @@ call_user_func(
 			$iconRegistry->registerIcon(
 				'sagenda_calendar-plugin-sagendacalendar',
 				\TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-				['source' => 'EXT:sagenda_calendar_typo3/Resources/Public/Icons/user_plugin_sagendacalendar.svg']
+				['source' => 'EXT:sagenda_calendar_typo3/Resources/Public/Icons/sagenda_vector.svg']
 			);
 		
     }
