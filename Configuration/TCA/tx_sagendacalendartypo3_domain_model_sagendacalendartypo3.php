@@ -17,7 +17,7 @@ return [
             'endtime' => 'endtime',
         ],
         'searchFields' => '',
-        'iconfile' => 'EXT:sagenda_calendar_typo3/Resources/Public/Icons/tx_sagendacalendar_domain_model_sagendacalendar.gif'
+        'iconfile' => 'EXT:sagenda_calendar_typo3/Resources/Public/Icons/sagenda_vector.svg'
     ],
     'interface' => [
         'showRecordFieldList' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, ',

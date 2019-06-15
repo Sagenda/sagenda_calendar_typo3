@@ -68,6 +68,7 @@
                             <onChange>reload</onChange>
                             <config>
                                 <type>select</type>
+                                <default>month</default>
                                 <items type="array">
                                     <numIndex index="1" type="array">
                                         <numIndex index="0">Day</numIndex>
