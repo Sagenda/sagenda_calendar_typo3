@@ -10,7 +10,7 @@
                 <el>
                     <settings.token>
                         <TCEforms>
-                            <label>Token</label>
+                            <label>Authentication code (Token)</label>
                             <config>
                                 <checkbox>1</checkbox>
                                 <default></default>
