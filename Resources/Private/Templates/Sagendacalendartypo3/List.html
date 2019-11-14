@@ -3,7 +3,7 @@
 
 	<f:section name="content">
 		<a name="sagenda"></a>
-		<app-root>Sagenda is loading...</app-root>
+		<app-sagenda-element>Sagenda is loading...</app-sagenda-element>
 		<script>
 			var languageid = document.getElementsByTagName("html")[0].getAttribute("lang");
 			window.sagendaIntegration = "Typo3";
@@ -19,9 +19,9 @@
 			window.baseUrl = "https://sagenda.net/api/v3/";
 			window.sagendaAngularPath = "{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/";
 		</script>
-		<script type="text/javascript" src="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/runtime.js"></script>
-		<script type="text/javascript" src="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/polyfills.js"></script>
 		<script type="text/javascript" src="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/main.js"></script>
+		<script type="text/javascript" src="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/runtime.js"></script>
+		<script type="text/javascript" src="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/polyfiles.js"></script>
 		<link href="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/styles.css" rel="stylesheet">
 	</f:section>
 </html>
