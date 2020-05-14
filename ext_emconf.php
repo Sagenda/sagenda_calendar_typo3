@@ -6,14 +6,14 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'plugin',
     'author' => 'Sagenda',
     'author_email' => '',
-    'state' => 'beta',
+    'state' => 'stable',
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '1.5.0',
+    'version' => '2.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.7.0-9.9.99',
+            'typo3' => '8.7.0-10.9.99',
         ],
         'conflicts' => [],
         'suggests' => [],
