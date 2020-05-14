@@ -84,11 +84,29 @@
                                         <numIndex index="0">Year</numIndex>
                                         <numIndex index="1">year</numIndex>
                                     </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">Agenda</numIndex>
+                                        <numIndex index="1">agenda</numIndex>
+                                    </numIndex>
                                 </items>
                             </config>
                         </TCEforms>
                     </settings.defaultview>
-
+                    <settings.removeagendaviewbutton>
+                        <TCEforms>
+                            <label>Remove Agenda View Button</label>
+                            <config>
+                                <checkbox>1</checkbox>
+                                <type>check</type>
+                                <items type="array">
+                                   <numIndex index="1" type="array">
+                                      <numIndex index="0">Remove Agenda view button</numIndex>
+                                      <numIndex index="1">1</numIndex>
+                                   </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.removeagendaviewbutton>
                     <settings.removemonthviewbutton>
                         <TCEforms>
                             <label>Remove Month View Button</label>

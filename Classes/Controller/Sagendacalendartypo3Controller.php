@@ -19,9 +19,8 @@ class Sagendacalendartypo3Controller extends \TYPO3\CMS\Extbase\Mvc\Controller\A
 {
     /**
      * sagendacalendartypo3Repository
-     *
+     * @TYPO3\CMS\Extbase\Annotation\Inject
      * @var \Sagenda\SagendaCalendarTypo3\Domain\Repository\Sagendacalendartypo3Repository
-     * @inject
      */
     protected $sagendacalendartypo3Repository = null;
 
@@ -33,6 +32,11 @@ class Sagendacalendartypo3Controller extends \TYPO3\CMS\Extbase\Mvc\Controller\A
     public function listAction()
     {
         $sagendacalendartypo3s = $this->sagendacalendartypo3Repository->findAll();
+        if ($this->settings['removeagendaviewbutton']) {
+            $this->settings['removeagendaviewbutton'] = 'true';
+        } else {
+            $this->settings['removeagendaviewbutton'] = 'false';
+        }
         if ($this->settings['removemonthviewbutton']) {
             $this->settings['removemonthviewbutton'] = 'true';
         } else {
