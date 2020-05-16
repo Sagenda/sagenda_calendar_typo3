@@ -1,7 +1,7 @@
 {
     "name": "sagenda/sagenda-calendar-typo3",
     "type": "typo3-cms-extension",
-    "description": "",
+    "description": "This is a scheduling and reservation calendar and agenda.",
     "authors": [
         {
             "name": "Sagenda",
