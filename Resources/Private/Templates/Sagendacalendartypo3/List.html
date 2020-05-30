@@ -4,8 +4,8 @@
 	<f:section name="content">
 		<a name="sagenda"></a>
 		<app-root>Sagenda is loading...</app-root>
-		<script>
-			var languageid = document.getElementsByTagName("html")[0].getAttribute("lang");
+		<script type="text/javascript">
+			
 			window.sagendaIntegration = "Typo3";
 			window.sagendaToken = "{settings.token}";
 			window.sagendaDefaultView = "{settings.defaultview}";
@@ -14,7 +14,7 @@
 			window.sagendaRemoveWeekViewButton = '{settings.removeweekviewbutton}';
 			window.sagendaRemoveDayViewButton = '{settings.removedayviewbutton}';	
 			window.sagendaRemoveAgendaViewButton = '{settings.removeagendaviewbutton}';
-			window.sagendaLanguageCultureShortName = 'en';
+			window.sagendaLanguageCultureShortName = '{languageid}';
 			window.sagendaDateFormat = "{settings.date}";
 			window.sagendaTimeFormat = "{settings.time}";
 			window.baseUrl = "https://sagenda.net/api/v3/";
