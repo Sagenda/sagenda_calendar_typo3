@@ -1,30 +1,41 @@
 <html xmlns:f="https://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
-	<f:layout name="Default" />
 
-	<f:section name="content">
-		<a name="sagenda"></a>
-		<app-root>Sagenda is loading...</app-root>
-		<script type="text/javascript">
-			
-			window.sagendaIntegration = "Typo3";
-			window.sagendaToken = "{settings.token}";
-			window.sagendaDefaultView = "{settings.defaultview}";
-			window.sagendaWeekStartsOn = "{settings.weekstarton}";
-			window.sagendaRemoveMonthViewButton = '{settings.removemonthviewbutton}';
-			window.sagendaRemoveWeekViewButton = '{settings.removeweekviewbutton}';
-			window.sagendaRemoveDayViewButton = '{settings.removedayviewbutton}';	
-			window.sagendaRemoveAgendaViewButton = '{settings.removeagendaviewbutton}';
-			window.sagendaLanguageCultureShortName = '{languageid}';
-			window.sagendaDateFormat = "{settings.date}";
-			window.sagendaTimeFormat = "{settings.time}";
-			window.baseUrl = "https://sagenda.net/api/v3/";
-			window.sagendaAngularPath = "{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/";
-		</script>
+<f:section name="HeaderAssets">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" />
+</f:section>
 
-		<script type="text/javascript" src="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/runtime.js"></script>
-		<script type="text/javascript" src="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/polyfills.js"></script>
-		<script type="text/javascript" src="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/polyfills-es5.js"></script>
-		<script type="text/javascript" src="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/main.js"></script>
-		<link href="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/styles.css" rel="stylesheet">
-	</f:section>
+<f:layout name="Default" />
+
+<f:section name="content">
+	<a name="sagenda"></a>
+	<app-root>Sagenda is loading...</app-root>
+	<script type="text/javascript">
+
+		window.sagendaIntegration = "Typo3";
+		window.sagendaToken = "{settings.token}";
+		window.sagendaDefaultView = "{settings.defaultview}";
+		window.sagendaWeekStartsOn = "{settings.weekstarton}";
+		window.sagendaRemoveMonthViewButton = '{settings.removemonthviewbutton}';
+		window.sagendaRemoveWeekViewButton = '{settings.removeweekviewbutton}';
+		window.sagendaRemoveDayViewButton = '{settings.removedayviewbutton}';
+		window.sagendaRemoveAgendaViewButton = '{settings.removeagendaviewbutton}';
+		window.sagendaLanguageCultureShortName = '{languageid}';
+		window.sagendaDateFormat = "{settings.date}";
+		window.sagendaTimeFormat = "{settings.time}";
+		window.baseUrl = "https://sagenda.net/api/v3/";
+		window.sagendaAngularPath = "{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/";
+	</script>
+
+	<script type="text/javascript"
+		src="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/runtime.js"></script>
+	<script type="text/javascript"
+		src="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/polyfills.js"></script>
+	<script type="text/javascript"
+		src="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/polyfills-es5.js"></script>
+	<script type="text/javascript"
+		src="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/main.js"></script>
+	<link href="{webpath}/typo3conf/ext/sagenda_calendar_typo3/Resources/Public/angular/styles.css" rel="stylesheet">
+
+</f:section>
+
 </html>

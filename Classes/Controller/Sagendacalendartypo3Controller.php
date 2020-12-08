@@ -54,7 +54,7 @@ class Sagendacalendartypo3Controller extends \TYPO3\CMS\Extbase\Mvc\Controller\A
         }
         $this->view->assign('settings', $this->settings);
 
-        $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]" . dirname($_SERVER[PHP_SELF]);
+        $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]" . dirname($_SERVER['PHP_SELF']);
         $this->view->assign('webpath', $actual_link);
 
         $languageid = $GLOBALS['TSFE']->config['config']['language'];
