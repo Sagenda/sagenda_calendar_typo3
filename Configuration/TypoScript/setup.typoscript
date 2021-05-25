@@ -16,8 +16,8 @@ page {
     }
 
     includeJSLibs {
-        runtime = EXT:sagenda_calendar_typo3/Resources/Public/JavaScript/runtime.js
-        polyfills = EXT:sagenda_calendar_typo3/Resources/Public/JavaScript/polyfills.js
-        main = EXT:sagenda_calendar_typo3/Resources/Public/JavaScript/main.js
+        runtime = EXT:sagenda_calendar_typo3/Resources/Public/angular/runtime.js
+        polyfills = EXT:sagenda_calendar_typo3/Resources/Public/angular/polyfills.js
+        main = EXT:sagenda_calendar_typo3/Resources/Public/angular/main.js
     }
 }

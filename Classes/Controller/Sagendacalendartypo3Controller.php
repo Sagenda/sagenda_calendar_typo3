@@ -58,6 +58,10 @@ class Sagendacalendartypo3Controller extends \TYPO3\CMS\Extbase\Mvc\Controller\A
         $this->view->assign('webpath', $actual_link);
 
         $languageid = $GLOBALS['TSFE']->config['config']['language'];
+
+        if($languageid === null) {
+            $languageid = 'en';
+        }
         $this->view->assign('languageid', $languageid);
 
         $this->view->assign('sagendacalendartypo3s', $sagendacalendartypo3s);
