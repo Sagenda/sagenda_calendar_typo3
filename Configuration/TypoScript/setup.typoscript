@@ -12,7 +12,7 @@ plugin.tx_sagendacalendartypo3_sagendacalendartypo3 {
 
 page {
     includeCSS {
-        sagendastyles = EXT:sagenda_calendar_typo3/Resources/Public/assets/angular/styles.css
+        sagendastyles = EXT:sagenda_calendar_typo3/Resources/Public/angular/styles.css
     }
 
     includeJSLibs {
