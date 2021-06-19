@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sagenda\\SagendaCalendarTypo3\\": "Classes"
+            "Sagenda\\SagendaCalendarTypo3\\": "public/typo3conf/ext/sagenda_calendar_typo3/Classes"
         }
     },
     "autoload-dev": {
